@@ -50,6 +50,11 @@ body {
     display: flex;
 }
 
+.footer {
+    display: flex;
+    padding: 15px;
+}
+
 .cards {
     flex-direction: column;
     width: 170px;
@@ -75,9 +80,12 @@ body {
     
 }
 
-.header {
+.header, .footer {
     color: #f9faf8;
     justify-content: center;
+}
+
+.header {
     padding: 5px 0;
 }
 
