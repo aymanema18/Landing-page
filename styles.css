@@ -39,7 +39,14 @@ body {
     padding: 115px 0;
 }
 
-.to-center-s2, .cards {
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.to-center-s2, .cards, .to-center-s4, .dv-btn, .s4-txt-n-btn {
     display: flex;
 }
 
@@ -80,7 +87,7 @@ body {
     align-items: center;
 }
 
-.to-center-s1, .header-section, .to-center-s2 {
+.to-center-s1, .header-section, .to-center-s2, .to-center-s4 {
     width: 75vw;
 }
 
@@ -96,6 +103,18 @@ body {
 
 .to-center-s3 {
     width: 60vw;
+}
+
+.to-center-s4 {
+    background-color: #3882f6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.s4-txt-n-btn {
+    width: 75%;
 }
 
 ul {
@@ -127,14 +146,17 @@ img {
     font-size: 18px;
 }
 
-.s1-title-txt-btn button {
+.s1-title-txt-btn button, .call-to-action-s4 {
     padding: 10px 35px;
-    border: none;
     border-radius: 8px;
     font-size: 16px;
     font-weight: 900;
     color: white;
     background-color: #3882f6;
+}
+
+.s1-title-txt-btn button {
+    border: none;
 }
 
 .s1-title-txt-btn h1 {
@@ -167,4 +189,32 @@ h2 {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+}
+
+.dv-txt {
+    flex: 2;
+    color: white;
+    
+}
+
+.call-to-action-s4 {
+    border: 2px solid white;
+}
+
+.dv-btn {
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+h3, .dv-txt p {
+    margin: 0;
+}
+
+.dv-txt p {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
 }
